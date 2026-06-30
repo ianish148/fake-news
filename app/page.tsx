@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Search, AlertTriangle, CheckCircle, HelpCircle, XCircle, ExternalLink, Loader2 } from "lucide-react";
+import { Search, AlertTriangle, CheckCircle, HelpCircle, XCircle, ExternalLink, Loader2, Github } from "lucide-react";
 
 type Verdict = "True" | "Mostly True" | "Mixed" | "Mostly False" | "False" | "Unverified";
 
@@ -232,6 +232,23 @@ export default function Home() {
         )}
         
       </div>
+      
+      {/* Footer */}
+      <footer className="mt-16 mb-8 w-full flex justify-center">
+        <a 
+          href="https://github.com/ianish148/fake-news" 
+          target="_blank" 
+          rel="noreferrer"
+          className="relative inline-flex p-[2px] rounded-full group bg-gradient-to-r from-purple-500 to-cyan-400 hover:shadow-[0_0_20px_rgba(168,85,247,0.4)] transition-all duration-300"
+        >
+          <div className="flex items-center gap-3 px-6 py-3 bg-[#0a0a0a] rounded-full text-white font-bold text-lg tracking-wide transition-colors group-hover:bg-[#111]">
+            <Github className="w-6 h-6" />
+            <span>Follow us on GitHub</span>
+            <ExternalLink className="w-5 h-5 ml-1 opacity-80" />
+          </div>
+        </a>
+      </footer>
+
     </main>
   );
 }
