@@ -84,6 +84,9 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#9333EA]/30 to-[#3B82F6]/30 blur-[100px] pointer-events-none"></div>
         
         <div className="relative z-10 text-center space-y-6 max-w-6xl w-full">
+          <div className="flex justify-center mb-2">
+            <img src="/logo.png" alt="Truth Seeker Logo" className="w-24 md:w-32 object-contain" />
+          </div>
           <div className="inline-block brutal-card bg-white text-black px-4 py-2 mb-4">
             <span className="font-mono font-bold uppercase tracking-widest text-sm flex items-center gap-2">
               <AlertTriangle className="w-4 h-4 text-[#9333EA]" />
