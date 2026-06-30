@@ -1,0 +1,214 @@
+{
+  "color": {
+    "Yellow Brand": {
+      "$type": "color",
+      "$value": "#ffd600",
+      "$description": "Hero background, primary CTA button fill, brand signature surface"
+    },
+    "Near Black": {
+      "$type": "color",
+      "$value": "#0a0a0a",
+      "$description": "Body text, borders, shadow color, icon fills — dominant foreground"
+    },
+    "Pure Black": {
+      "$type": "color",
+      "$value": "#000000",
+      "$description": "Hard shadow layers, border strokes on cards and buttons"
+    },
+    "Off-White Background": {
+      "$type": "color",
+      "$value": "#fafafa",
+      "$description": "Page background, modal surface, card base"
+    },
+    "White": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Input fields, inner card surfaces, text on dark fills"
+    },
+    "Brutalist Red": {
+      "$type": "color",
+      "$value": "#b91c1c",
+      "$description": "Destructive states, warning labels, failure-category highlights"
+    },
+    "Amber": {
+      "$type": "color",
+      "$value": "#f59e0b",
+      "$description": "Secondary highlight surface, badge fills"
+    },
+    "Green Accent": {
+      "$type": "color",
+      "$value": "#00c853",
+      "$description": "Hero item card background (confirmed by probe: hero-item backgroundColor)"
+    },
+    "Pink Accent": {
+      "$type": "color",
+      "$value": "#ff4081",
+      "$description": "Industry Deep Dives card surface, accent category fills"
+    },
+    "Orange Accent": {
+      "$type": "color",
+      "$value": "#ff6b00",
+      "$description": "VC capital highlight badge, accent card fills"
+    }
+  },
+  "typography": {
+    "Hero Display": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "120px",
+        "fontWeight": 900,
+        "lineHeight": "1",
+        "letterSpacing": "normal"
+      },
+      "$description": "Primary hero headline — extreme scale, ultra-heavy weight (probe-confirmed: 120px)"
+    },
+    "Section Heading": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "24px",
+        "fontWeight": 900,
+        "lineHeight": "26.4px",
+        "letterSpacing": "normal"
+      },
+      "$description": "Card and section titles"
+    },
+    "Sub-heading": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "18px",
+        "fontWeight": 900,
+        "lineHeight": "27px",
+        "letterSpacing": "normal"
+      },
+      "$description": "Card sub-headings and feature labels"
+    },
+    "Body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "$description": "Primary body text, descriptions, paragraph content"
+    },
+    "Body Bold": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "16px",
+        "fontWeight": 900,
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "$description": "Emphasized inline body text"
+    },
+    "Label Caps": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "12px",
+        "fontWeight": 700,
+        "lineHeight": "18px",
+        "letterSpacing": "0.5px"
+      },
+      "$description": "All-caps labels, tags, category badges"
+    },
+    "Small Label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "11px",
+        "fontWeight": 600,
+        "lineHeight": "16.5px",
+        "letterSpacing": "normal"
+      },
+      "$description": "Micro-labels, metadata, secondary tags"
+    },
+    "Mono Label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Space Mono",
+        "fontSize": "12px",
+        "fontWeight": 700,
+        "lineHeight": "normal",
+        "letterSpacing": "normal"
+      },
+      "$description": "Code-style tags, data callouts, monospace badges"
+    },
+    "Mono Caps": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Space Mono",
+        "fontSize": "12px",
+        "fontWeight": 900,
+        "lineHeight": "18px",
+        "letterSpacing": "0.5px"
+      },
+      "$description": "Uppercase monospace labels on live data badges and stat callouts"
+    },
+    "Nav Label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": "24px",
+        "letterSpacing": "normal"
+      },
+      "$description": "Navigation items (probe-confirmed: hero-nav-label, 20px)"
+    }
+  },
+  "spacing": {
+    "xs": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "6px"
+    },
+    "md-sm": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "md-lg": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "40px"
+    },
+    "4xl": {
+      "$type": "dimension",
+      "$value": "80px"
+    }
+  },
+  "borderRadius": {
+    "none": {
+      "$type": "dimension",
+      "$value": "0px"
+    }
+  }
+}

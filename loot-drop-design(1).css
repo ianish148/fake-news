@@ -1,0 +1,73 @@
+:root {
+  /* Colors */
+  --color-yellow-brand: #ffd600;
+  --color-near-black: #0a0a0a;
+  --color-pure-black: #000000;
+  --color-off-white-background: #fafafa;
+  --color-white: #ffffff;
+  --color-brutalist-red: #b91c1c;
+  --color-amber: #f59e0b;
+  --color-green-accent: #00c853;
+  --color-pink-accent: #ff4081;
+  --color-orange-accent: #ff6b00;
+
+  /* Typography */
+  --font-hero-display-family: Space Grotesk;
+  --font-hero-display-size: 120px;
+  --font-hero-display-weight: 900;
+  --font-hero-display-line-height: 1;
+  --font-section-heading-family: Space Grotesk;
+  --font-section-heading-size: 24px;
+  --font-section-heading-weight: 900;
+  --font-section-heading-line-height: 26.4px;
+  --font-sub-heading-family: Space Grotesk;
+  --font-sub-heading-size: 18px;
+  --font-sub-heading-weight: 900;
+  --font-sub-heading-line-height: 27px;
+  --font-body-family: Space Grotesk;
+  --font-body-size: 16px;
+  --font-body-weight: 400;
+  --font-body-line-height: 24px;
+  --font-body-bold-family: Space Grotesk;
+  --font-body-bold-size: 16px;
+  --font-body-bold-weight: 900;
+  --font-body-bold-line-height: 24px;
+  --font-label-caps-family: Space Grotesk;
+  --font-label-caps-size: 12px;
+  --font-label-caps-weight: 700;
+  --font-label-caps-line-height: 18px;
+  --font-label-caps-letter-spacing: 0.5px;
+  --font-small-label-family: Space Grotesk;
+  --font-small-label-size: 11px;
+  --font-small-label-weight: 600;
+  --font-small-label-line-height: 16.5px;
+  --font-mono-label-family: Space Mono;
+  --font-mono-label-size: 12px;
+  --font-mono-label-weight: 700;
+  --font-mono-label-line-height: normal;
+  --font-mono-caps-family: Space Mono;
+  --font-mono-caps-size: 12px;
+  --font-mono-caps-weight: 900;
+  --font-mono-caps-line-height: 18px;
+  --font-mono-caps-letter-spacing: 0.5px;
+  --font-nav-label-family: Space Grotesk;
+  --font-nav-label-size: 20px;
+  --font-nav-label-weight: 400;
+  --font-nav-label-line-height: 24px;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 6px;
+  --spacing-md-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-md-lg: 16px;
+  --spacing-lg: 20px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+  --spacing-3xl: 40px;
+  --spacing-4xl: 80px;
+
+  /* Border Radius */
+  --radius-none: 0px;
+
+}
