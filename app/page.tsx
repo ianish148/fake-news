@@ -252,7 +252,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="mt-16 mb-8 w-full flex justify-center">
         <a 
-          href="https://github.com/ianish148/fake-news" 
+          href="https://github.com/ianish148" 
           target="_blank" 
           rel="noreferrer"
           className="relative inline-flex p-[2px] rounded-full group bg-gradient-to-r from-purple-500 to-cyan-400 hover:shadow-[0_0_20px_rgba(168,85,247,0.4)] transition-all duration-300"
